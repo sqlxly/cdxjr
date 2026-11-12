@@ -1,0 +1,30 @@
+1.抛弃通道 每分钟多少个需要修改  count_per_min_egg
+
+	//		egg_info->print_id = throw_ch_product.ch[spt_product_id-7].print_id;
+	
+	system_emergency_stop
+	
+	//	addr = &user_set->use_mode.egg_packge_ch6;
+	for(i=0;i<6;i++)
+	{
+		//if(addr[5-i]>0)
+		//{
+		  set_control_run_state(i,SYSTEM_IS_EMERGENCY_STOP); 
+	//	}
+	}
+	
+	get_packge_ch_config
+	
+	输送通道报警被屏蔽 set_device_alarm(TRANSPORT_CH_COM_ERR);
+
+	
+	get_pst_egg_info()  这几个函数
+	get_pst_egg_info
+	get_pst_egg_info(1,18,&egg_info,0);
+	recode_tick_egg_info_down()
+	
+	count_per_min_egg(3); //空杯检测这里
+	
+	start_tick_eggs
+	init_avg_spt_egg_info
+caculate_spt_ch

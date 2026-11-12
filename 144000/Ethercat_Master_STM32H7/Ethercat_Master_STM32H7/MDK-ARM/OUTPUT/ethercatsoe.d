@@ -1,0 +1,11 @@
+.\output\ethercatsoe.o: ..\SOEM-1.3.0\soem\ethercatsoe.c
+.\output\ethercatsoe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\ethercatsoe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\ethercatsoe.o: ..\SOEM-1.3.0\osal\osal.h
+.\output\ethercatsoe.o: ..\SOEM-1.3.0\osal\intime\osal_defs.h
+.\output\ethercatsoe.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\ethercatsoe.o: ..\SOEM-1.3.0\soem\ethercattype.h
+.\output\ethercatsoe.o: ..\SOEM-1.3.0\soem\ethercatbase.h
+.\output\ethercatsoe.o: ..\SOEM-1.3.0\oshw\intime\nicdrv.h
+.\output\ethercatsoe.o: ..\SOEM-1.3.0\soem\ethercatmain.h
+.\output\ethercatsoe.o: ..\SOEM-1.3.0\soem\ethercatsoe.h

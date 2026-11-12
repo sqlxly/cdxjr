@@ -1,0 +1,20 @@
+#include "mdbus_tcp_slaver.h"
+
+static uint16_t _tab_input_registers[10] = {0};
+
+static int get_map_buf(int index, int len, void *buf, int bufsz)
+{
+    uint16_t *ptr = (uint16_t *)buf;
+
+    pthread_mutex_lock(&slave_mtx);
+	  for (int i = 0; i < len; i++) {
+				ptr[i] = _tab_input_registers[index + i];
+    }
+    pthread_mutex_unlock(&slave_mtx);
+
+    return 0;
+}
+
+const agile_modbus_slave_util_map_t input_register_maps[1] = {
+    {0, 9, get_map_buf, NULL}
+};

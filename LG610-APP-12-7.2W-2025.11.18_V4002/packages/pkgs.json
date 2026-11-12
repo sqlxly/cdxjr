@@ -1,0 +1,22 @@
+[
+ {
+  "path": "/packages/iot/libmodbus", 
+  "ver": "latest", 
+  "name": "LIBMODBUS"
+ }, 
+ {
+  "path": "/packages/iot/freemodbus", 
+  "ver": "latest", 
+  "name": "FREEMODBUS"
+ }, 
+ {
+  "path": "/packages/iot/tcpserver", 
+  "ver": "latest", 
+  "name": "TCPSERVER"
+ }, 
+ {
+  "path": "/packages/peripherals/at24cxx", 
+  "ver": "latest", 
+  "name": "AT24CXX"
+ }
+]

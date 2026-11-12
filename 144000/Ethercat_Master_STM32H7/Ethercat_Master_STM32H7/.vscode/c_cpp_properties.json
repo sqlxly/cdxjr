@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/rt-thread/include",
+                "${workspaceFolder}/rt-thread/components/drivers/include",
+                "${workspaceFolder}/libraries/HAL_Drivers/drivers",
+                "${workspaceFolder}/libraries/HAL_Drivers",
+                "${workspaceFolder}/libraries/HAL_Drivers/CMSIS/Include",
+                "${workspaceFolder}/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceFolder}/board",
+                "${workspaceFolder}/board/CubeMX_Config/Inc",
+                "${workspaceFolder}/applications",
+                "${workspaceFolder}/EtherCAT_Include",
+                "${workspaceFolder}/EtherCAT_User",
+                "${workspaceFolder}/packages/CanFestival-latest/inc",
+                "${workspaceFolder}/packages/CanFestival-latest/examples/master402",
+                "${workspaceFolder}/rt-thread/components/finsh",
+                "${workspaceFolder}/rt-thread/components/libc/compilers/common/include",
+                "${workspaceFolder}/rt-thread/components/libc/compilers/common/extension"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "RT_USING_LIBC",
+                "RT_USING_ARMLIBC",
+                "USE_HAL_DRIVER",
+                "STM32F407xx"
+            ],
+            "compilerPath": "D:/Darm_gnu_14.3/14.3_rel1/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
